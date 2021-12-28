@@ -21,9 +21,9 @@
  */
 require '../commons/base.inc.php';
 new UpdateClient(
+    false,
     true,
-    false,
-    false,
-    false,
+    true,
+    true,
     isset($_REQUEST['newService'])
 );
